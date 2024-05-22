@@ -1,0 +1,73 @@
+.ant-collapse {
+  border-radius: 4px;
+}
+.ant-collapse-header {
+  align-items: center;
+}
+.building-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  .icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555;
+    border-radius: 50%;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    .company {
+      font-size: 16px;
+      font-weight: 900;
+    }
+    .contactor {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .position {
+      color: grey;
+    }
+  }
+}
+.building-card-content {
+  position: relative;
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+
+    .icon {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #555;
+      border-radius: 50%;
+    }
+  }
+  .verify-status-icon {
+    position: absolute;
+    bottom: 44px;
+    right: 2px;
+  }
+  .external-links {
+    margin-top: 8px;
+    button:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    button:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

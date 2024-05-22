@@ -1,0 +1,60 @@
+// .auth-layout {
+//   .container {
+//     min-height: 100vh;
+
+//     .banner {
+//       position: relative;
+//       background: url(../images/banner.jpg) center/cover;
+
+//       .logo {
+//         position: absolute;
+//         top: 50px;
+//         width: 100%;
+//       }
+
+//       .caption {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         height: 100%;
+//         margin: 0 auto;
+//         max-width: 370px;
+//         text-align: center;
+//       }
+//     }
+
+//     .content {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//     }
+//   }
+// }
+
+.auth-form {
+  text-align: left;
+
+
+}
+
+.brann-registeration-sider {
+  position: relative;
+
+  .brann-logo-wrapper {
+    padding: 0 40px;
+  }
+
+  .brann-registeration-back {
+    width: 100%;
+    position: absolute;
+    bottom: 4rem;
+    text-align: center;
+
+    a {
+      border: 1px solid #ccc;
+      font-size: 16px;
+      color: white;
+      padding: 0.75rem 4rem;
+    }
+  }
+}
