@@ -11,6 +11,13 @@
     // background: linear-gradient(90deg, rgb(248, 207, 130), rgb(245, 165, 18));
     // background-image: image('../images/banner.jpg');
     background: url('../images/back.jpeg') center/cover;
+    // display: flex;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+    min-height: calc(100vh);
 }
 
 .container {
@@ -66,30 +73,31 @@
 
 .screen__background__shape1 {
     height: 520px;
-    width: 700px;
-    top: 200px;
-    right: 50px;
+    width: 1500px;
+    top: 700px;
+    right: 100px;
     border-radius: 0 72px 0 0;
 }
 
 .screen__background__shape2 {
-    height: 400px;
-    width: 300px;
     // background: #6C63AC;
+    position: relative;
+    width: 500px;
+    text-align: end;
+    justify-items: end;
+    align-items: end;
     background: url('../images/Designer.jpeg') center/cover;
-    top: 150px;
-    left: 100px;
     border-radius: 32px;
+    height: 600px;
 }
 
 .screen__background__shape3 {
-    height: 540px;
+    height: 700px;
     width: 380px;
     // background: linear-gradient(270deg, #5D54A4, #6A679E);
-    background: linear-gradient(270deg, rgb(233, 173, 62), rgb(253, 214, 141));
-    top: -24px;
-    right: 0;
-    border-radius: 32px;
+    background: linear-gradient(270deg, rgb(10, 11, 27), rgb(0, 0, 0));
+    padding-left: 30px;
+    padding-top: 50px;
 }
 
 .screen__background__shape4 {
